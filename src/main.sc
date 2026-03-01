@@ -1,4 +1,8 @@
 theme: /
+    
+    state: Start
+        q!: $regex</start>
+        a: Начнём.
 
     state: Hello
         intent!: /hello
@@ -52,6 +56,7 @@ theme: /
         q!: валюта*
         q!: доллар*
         q!: евро*
+        q!: саламандра*
         q!: currency*
         q!: exchange rate*
         q!: курс валют*
